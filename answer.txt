@@ -1,0 +1,1039 @@
+● sing-box.service - sing-box service
+     Loaded: loaded (/usr/lib/systemd/system/sing-box.service; enabled; preset: enabled)
+     Active: activating (auto-restart) (Result: exit-code) since Sat 2026-07-04 20:35:57 EDT; 5s ago
+ Invocation: 22d4d99351dc4e27af69a864b8266e67
+       Docs: https://sing-box.sagernet.org
+    Process: 4346 ExecStart=/usr/bin/sing-box -D /var/lib/sing-box -C /etc/sing-box run (code=exited, status=1/FAILURE)
+   Main PID: 4346 (code=exited, status=1/FAILURE)
+   Mem peak: 12M
+        CPU: 91ms
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+root@debian:~# journalctl -u sing-box -e --no-pager
+Jul 04 20:02:29 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 65.
+Jul 04 20:02:29 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:02:29 debian sing-box[2230]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:02:29 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:02:29 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:02:39 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 66.
+Jul 04 20:02:39 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:02:39 debian sing-box[2240]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:02:39 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:02:39 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:02:50 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 67.
+Jul 04 20:02:50 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:02:50 debian sing-box[2250]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:02:50 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:02:50 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:03:00 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 68.
+Jul 04 20:03:00 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:03:00 debian sing-box[2260]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:03:00 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:03:00 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:03:10 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 69.
+Jul 04 20:03:10 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:03:10 debian sing-box[2289]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:03:10 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:03:10 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:03:20 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 70.
+Jul 04 20:03:20 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:03:20 debian sing-box[2299]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:03:20 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:03:20 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:03:31 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 71.
+Jul 04 20:03:31 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:03:31 debian sing-box[2309]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:03:31 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:03:31 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:03:41 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 72.
+Jul 04 20:03:41 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:03:41 debian sing-box[2320]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:03:41 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:03:41 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:03:51 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 73.
+Jul 04 20:03:51 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:03:51 debian sing-box[2330]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:03:51 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:03:51 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:04:01 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 74.
+Jul 04 20:04:01 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:04:01 debian sing-box[2340]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:04:01 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:04:01 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:04:12 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 75.
+Jul 04 20:04:12 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:04:12 debian sing-box[2350]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:04:12 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:04:12 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:04:22 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 76.
+Jul 04 20:04:22 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:04:22 debian sing-box[2360]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:04:22 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:04:22 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:04:32 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 77.
+Jul 04 20:04:32 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:04:32 debian sing-box[2370]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:04:32 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:04:32 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:04:42 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 78.
+Jul 04 20:04:42 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:04:42 debian sing-box[2381]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:04:42 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:04:42 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:04:53 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 79.
+Jul 04 20:04:53 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:04:53 debian sing-box[2391]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:04:53 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:04:53 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:05:03 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 80.
+Jul 04 20:05:03 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:05:03 debian sing-box[2401]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:05:03 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:05:03 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:05:13 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 81.
+Jul 04 20:05:13 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:05:13 debian sing-box[2411]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:05:13 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:05:13 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:05:23 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 82.
+Jul 04 20:05:23 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:05:23 debian sing-box[2422]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:05:23 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:05:23 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:05:34 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 83.
+Jul 04 20:05:34 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:05:34 debian sing-box[2432]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:05:34 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:05:34 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:05:44 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 84.
+Jul 04 20:05:44 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:05:44 debian sing-box[2442]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:05:44 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:05:44 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:05:54 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 85.
+Jul 04 20:05:54 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:05:54 debian sing-box[2452]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:05:54 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:05:54 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:06:04 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 86.
+Jul 04 20:06:04 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:06:04 debian sing-box[2462]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:06:04 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:06:04 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:06:15 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 87.
+Jul 04 20:06:15 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:06:15 debian sing-box[2472]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:06:15 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:06:15 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:06:25 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 88.
+Jul 04 20:06:25 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:06:25 debian sing-box[2482]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:06:25 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:06:25 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:06:35 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 89.
+Jul 04 20:06:35 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:06:35 debian sing-box[2491]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:06:35 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:06:35 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:06:45 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 90.
+Jul 04 20:06:45 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:06:45 debian sing-box[2501]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:06:45 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:06:45 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:06:56 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 91.
+Jul 04 20:06:56 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:06:56 debian sing-box[2511]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:06:56 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:06:56 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:07:06 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 92.
+Jul 04 20:07:06 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:07:06 debian sing-box[2522]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:07:06 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:07:06 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:07:16 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 93.
+Jul 04 20:07:16 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:07:16 debian sing-box[2532]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:07:16 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:07:16 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:07:26 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 94.
+Jul 04 20:07:26 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:07:26 debian sing-box[2542]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:07:26 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:07:26 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:07:37 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 95.
+Jul 04 20:07:37 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:07:37 debian sing-box[2553]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:07:37 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:07:37 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:07:47 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 96.
+Jul 04 20:07:47 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:07:47 debian sing-box[2563]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:07:47 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:07:47 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:07:57 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 97.
+Jul 04 20:07:57 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:07:57 debian sing-box[2573]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:07:57 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:07:57 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:08:07 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 98.
+Jul 04 20:08:07 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:08:07 debian sing-box[2583]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:08:07 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:08:07 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:08:18 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 99.
+Jul 04 20:08:18 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:08:18 debian sing-box[2612]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:08:18 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:08:18 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:08:28 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 100.
+Jul 04 20:08:28 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:08:28 debian sing-box[2622]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:08:28 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:08:28 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:08:38 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 101.
+Jul 04 20:08:38 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:08:38 debian sing-box[2632]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:08:38 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:08:38 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:08:48 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 102.
+Jul 04 20:08:48 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:08:48 debian sing-box[2643]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:08:48 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:08:48 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:08:59 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 103.
+Jul 04 20:08:59 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:08:59 debian sing-box[2654]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:08:59 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:08:59 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:09:09 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 104.
+Jul 04 20:09:09 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:09:09 debian sing-box[2663]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:09:09 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:09:09 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:09:19 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 105.
+Jul 04 20:09:19 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:09:19 debian sing-box[2673]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:09:19 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:09:19 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:09:29 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 106.
+Jul 04 20:09:29 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:09:29 debian sing-box[2683]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:09:29 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:09:29 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:09:40 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 107.
+Jul 04 20:09:40 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:09:40 debian sing-box[2694]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:09:40 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:09:40 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:09:50 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 108.
+Jul 04 20:09:50 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:09:50 debian sing-box[2704]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:09:50 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:09:50 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:10:00 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 109.
+Jul 04 20:10:00 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:10:00 debian sing-box[2714]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:10:00 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:10:00 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:10:10 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 110.
+Jul 04 20:10:10 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:10:10 debian sing-box[2724]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:10:10 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:10:10 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:10:21 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 111.
+Jul 04 20:10:21 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:10:21 debian sing-box[2734]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:10:21 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:10:21 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:10:31 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 112.
+Jul 04 20:10:31 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:10:31 debian sing-box[2744]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:10:31 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:10:31 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:10:41 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 113.
+Jul 04 20:10:41 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:10:41 debian sing-box[2754]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:10:41 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:10:41 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:10:51 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 114.
+Jul 04 20:10:51 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:10:51 debian sing-box[2764]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:10:51 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:10:51 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:11:02 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 115.
+Jul 04 20:11:02 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:11:02 debian sing-box[2774]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:11:02 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:11:02 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:11:12 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 116.
+Jul 04 20:11:12 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:11:12 debian sing-box[2784]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:11:12 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:11:12 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:11:22 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 117.
+Jul 04 20:11:22 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:11:22 debian sing-box[2794]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:11:22 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:11:22 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:11:32 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 118.
+Jul 04 20:11:32 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:11:32 debian sing-box[2804]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:11:32 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:11:32 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:11:43 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 119.
+Jul 04 20:11:43 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:11:43 debian sing-box[2814]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:11:43 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:11:43 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:11:53 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 120.
+Jul 04 20:11:53 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:11:53 debian sing-box[2824]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:11:53 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:11:53 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:12:03 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 121.
+Jul 04 20:12:03 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:12:03 debian sing-box[2834]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:12:03 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:12:03 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:12:13 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 122.
+Jul 04 20:12:13 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:12:13 debian sing-box[2844]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:12:13 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:12:13 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:12:24 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 123.
+Jul 04 20:12:24 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:12:24 debian sing-box[2854]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:12:24 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:12:24 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:12:34 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 124.
+Jul 04 20:12:34 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:12:34 debian sing-box[2864]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:12:34 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:12:34 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:12:44 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 125.
+Jul 04 20:12:44 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:12:44 debian sing-box[2874]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:12:44 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:12:44 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:12:54 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 126.
+Jul 04 20:12:54 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:12:54 debian sing-box[2884]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:12:54 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:12:54 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:13:05 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 127.
+Jul 04 20:13:05 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:13:05 debian sing-box[2894]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:13:05 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:13:05 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:13:15 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 128.
+Jul 04 20:13:15 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:13:15 debian sing-box[2923]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:13:15 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:13:15 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:13:25 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 129.
+Jul 04 20:13:25 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:13:25 debian sing-box[2932]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:13:25 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:13:25 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:13:35 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 130.
+Jul 04 20:13:35 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:13:35 debian sing-box[2942]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:13:35 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:13:35 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:13:46 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 131.
+Jul 04 20:13:46 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:13:46 debian sing-box[2952]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:13:46 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:13:46 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:13:56 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 132.
+Jul 04 20:13:56 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:13:56 debian sing-box[2963]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:13:56 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:13:56 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:14:06 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 133.
+Jul 04 20:14:06 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:14:06 debian sing-box[2974]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:14:06 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:14:06 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:14:16 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 134.
+Jul 04 20:14:16 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:14:16 debian sing-box[2984]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:14:16 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:14:16 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:14:27 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 135.
+Jul 04 20:14:27 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:14:27 debian sing-box[2994]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:14:27 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:14:27 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:14:37 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 136.
+Jul 04 20:14:37 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:14:37 debian sing-box[3004]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:14:37 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:14:37 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:14:47 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 137.
+Jul 04 20:14:47 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:14:47 debian sing-box[3014]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:14:47 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:14:47 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:14:57 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 138.
+Jul 04 20:14:57 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:14:57 debian sing-box[3024]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:14:57 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:14:57 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:15:08 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 139.
+Jul 04 20:15:08 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:15:08 debian sing-box[3035]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:15:08 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:15:08 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:15:18 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 140.
+Jul 04 20:15:18 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:15:18 debian sing-box[3045]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:15:18 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:15:18 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:15:28 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 141.
+Jul 04 20:15:28 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:15:28 debian sing-box[3055]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:15:28 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:15:28 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:15:38 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 142.
+Jul 04 20:15:38 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:15:38 debian sing-box[3065]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:15:38 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:15:39 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:15:49 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 143.
+Jul 04 20:15:49 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:15:49 debian sing-box[3075]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:15:49 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:15:49 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:15:59 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 144.
+Jul 04 20:15:59 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:15:59 debian sing-box[3085]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:15:59 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:15:59 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:16:09 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 145.
+Jul 04 20:16:09 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:16:09 debian sing-box[3095]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:16:09 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:16:09 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:16:19 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 146.
+Jul 04 20:16:19 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:16:19 debian sing-box[3105]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:16:19 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:16:19 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:16:30 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 147.
+Jul 04 20:16:30 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:16:30 debian sing-box[3115]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:16:30 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:16:30 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:16:40 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 148.
+Jul 04 20:16:40 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:16:40 debian sing-box[3125]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:16:40 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:16:40 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:16:50 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 149.
+Jul 04 20:16:50 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:16:50 debian sing-box[3135]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:16:50 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:16:50 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:17:00 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 150.
+Jul 04 20:17:00 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:17:00 debian sing-box[3145]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:17:00 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:17:00 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:17:11 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 151.
+Jul 04 20:17:11 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:17:11 debian sing-box[3159]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:17:11 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:17:11 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:17:21 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 152.
+Jul 04 20:17:21 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:17:21 debian sing-box[3169]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:17:21 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:17:21 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:17:31 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 153.
+Jul 04 20:17:31 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:17:31 debian sing-box[3179]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:17:31 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:17:31 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:17:41 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 154.
+Jul 04 20:17:41 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:17:41 debian sing-box[3189]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:17:41 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:17:41 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:17:52 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 155.
+Jul 04 20:17:52 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:17:52 debian sing-box[3199]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:17:52 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:17:52 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:18:02 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 156.
+Jul 04 20:18:02 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:18:02 debian sing-box[3210]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:18:02 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:18:02 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:18:12 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 157.
+Jul 04 20:18:12 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:18:12 debian sing-box[3239]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:18:12 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:18:12 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:18:22 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 158.
+Jul 04 20:18:22 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:18:22 debian sing-box[3249]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:18:22 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:18:22 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:18:33 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 159.
+Jul 04 20:18:33 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:18:33 debian sing-box[3259]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:18:33 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:18:33 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:18:43 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 160.
+Jul 04 20:18:43 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:18:43 debian sing-box[3269]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:18:43 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:18:43 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:18:53 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 161.
+Jul 04 20:18:53 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:18:53 debian sing-box[3279]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:18:53 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:18:53 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:19:03 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 162.
+Jul 04 20:19:03 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:19:03 debian sing-box[3290]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:19:03 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:19:03 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:19:14 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 163.
+Jul 04 20:19:14 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:19:14 debian sing-box[3300]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:19:14 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:19:14 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:19:24 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 164.
+Jul 04 20:19:24 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:19:24 debian sing-box[3311]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:19:24 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:19:24 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:19:34 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 165.
+Jul 04 20:19:34 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:19:34 debian sing-box[3321]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:19:34 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:19:34 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:19:44 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 166.
+Jul 04 20:19:44 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:19:44 debian sing-box[3332]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:19:44 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:19:44 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:19:55 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 167.
+Jul 04 20:19:55 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:19:55 debian sing-box[3341]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:19:55 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:19:55 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:20:05 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 168.
+Jul 04 20:20:05 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:20:05 debian sing-box[3352]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:20:05 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:20:05 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:20:15 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 169.
+Jul 04 20:20:15 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:20:15 debian sing-box[3362]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:20:15 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:20:15 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:20:25 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 170.
+Jul 04 20:20:25 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:20:25 debian sing-box[3372]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:20:25 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:20:25 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:20:36 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 171.
+Jul 04 20:20:36 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:20:36 debian sing-box[3382]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:20:36 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:20:36 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:20:46 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 172.
+Jul 04 20:20:46 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:20:46 debian sing-box[3392]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:20:46 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:20:46 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:20:56 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 173.
+Jul 04 20:20:56 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:20:56 debian sing-box[3401]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:20:56 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:20:56 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:21:06 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 174.
+Jul 04 20:21:06 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:21:06 debian sing-box[3412]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:21:06 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:21:06 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:21:17 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 175.
+Jul 04 20:21:17 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:21:17 debian sing-box[3422]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:21:17 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:21:17 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:21:27 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 176.
+Jul 04 20:21:27 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:21:27 debian sing-box[3431]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:21:27 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:21:27 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:21:37 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 177.
+Jul 04 20:21:37 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:21:37 debian sing-box[3441]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:21:37 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:21:37 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:21:47 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 178.
+Jul 04 20:21:47 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:21:47 debian sing-box[3451]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:21:47 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:21:47 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:21:58 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 179.
+Jul 04 20:21:58 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:21:58 debian sing-box[3461]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:21:58 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:21:58 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:22:08 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 180.
+Jul 04 20:22:08 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:22:08 debian sing-box[3471]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:22:08 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:22:08 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:22:18 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 181.
+Jul 04 20:22:18 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:22:18 debian sing-box[3481]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:22:18 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:22:18 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:22:28 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 182.
+Jul 04 20:22:28 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:22:28 debian sing-box[3491]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:22:28 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:22:28 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:22:39 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 183.
+Jul 04 20:22:39 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:22:39 debian sing-box[3501]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:22:39 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:22:39 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:22:49 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 184.
+Jul 04 20:22:49 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:22:49 debian sing-box[3510]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:22:49 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:22:49 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:22:59 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 185.
+Jul 04 20:22:59 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:22:59 debian sing-box[3519]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:22:59 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:22:59 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:23:09 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 186.
+Jul 04 20:23:09 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:23:09 debian sing-box[3549]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:23:09 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:23:09 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:23:20 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 187.
+Jul 04 20:23:20 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:23:20 debian sing-box[3559]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:23:20 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:23:20 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:23:30 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 188.
+Jul 04 20:23:30 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:23:30 debian sing-box[3569]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:23:30 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:23:30 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:23:40 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 189.
+Jul 04 20:23:40 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:23:40 debian sing-box[3579]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:23:40 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:23:40 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:23:50 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 190.
+Jul 04 20:23:50 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:23:50 debian sing-box[3589]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:23:50 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:23:50 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:24:01 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 191.
+Jul 04 20:24:01 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:24:01 debian sing-box[3600]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:24:01 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:24:01 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:24:11 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 192.
+Jul 04 20:24:11 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:24:11 debian sing-box[3610]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:24:11 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:24:11 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:24:21 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 193.
+Jul 04 20:24:21 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:24:21 debian sing-box[3620]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:24:21 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:24:21 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:24:31 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 194.
+Jul 04 20:24:31 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:24:31 debian sing-box[3630]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:24:31 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:24:31 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:24:42 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 195.
+Jul 04 20:24:42 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:24:42 debian sing-box[3640]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:24:42 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:24:42 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:24:52 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 196.
+Jul 04 20:24:52 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:24:52 debian sing-box[3650]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:24:52 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:24:52 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:25:02 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 197.
+Jul 04 20:25:02 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:25:02 debian sing-box[3660]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:25:02 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:25:02 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:25:12 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 198.
+Jul 04 20:25:12 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:25:12 debian sing-box[3671]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:25:12 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:25:12 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:25:23 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 199.
+Jul 04 20:25:23 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:25:23 debian sing-box[3680]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:25:23 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:25:23 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:25:33 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 200.
+Jul 04 20:25:33 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:25:33 debian sing-box[3690]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:25:33 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:25:33 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:25:43 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 201.
+Jul 04 20:25:43 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:25:43 debian sing-box[3699]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:25:43 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:25:43 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:25:53 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 202.
+Jul 04 20:25:53 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:25:53 debian sing-box[3709]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:25:53 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:25:53 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:26:04 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 203.
+Jul 04 20:26:04 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:26:04 debian sing-box[3720]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:26:04 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:26:04 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:26:14 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 204.
+Jul 04 20:26:14 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:26:14 debian sing-box[3730]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:26:14 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:26:14 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:26:24 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 205.
+Jul 04 20:26:24 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:26:24 debian sing-box[3740]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:26:24 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:26:24 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:26:34 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 206.
+Jul 04 20:26:34 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:26:34 debian sing-box[3750]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:26:34 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:26:34 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:26:45 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 207.
+Jul 04 20:26:45 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:26:45 debian sing-box[3760]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:26:45 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:26:45 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:26:55 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 208.
+Jul 04 20:26:55 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:26:55 debian sing-box[3770]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:26:55 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:26:55 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:27:05 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 209.
+Jul 04 20:27:05 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:27:05 debian sing-box[3780]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:27:05 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:27:05 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:27:15 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 210.
+Jul 04 20:27:15 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:27:15 debian sing-box[3789]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:27:15 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:27:15 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:27:26 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 211.
+Jul 04 20:27:26 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:27:26 debian sing-box[3799]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:27:26 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:27:26 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:27:36 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 212.
+Jul 04 20:27:36 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:27:36 debian sing-box[3809]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:27:36 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:27:36 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:27:46 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 213.
+Jul 04 20:27:46 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:27:46 debian sing-box[3819]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:27:46 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:27:46 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:27:56 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 214.
+Jul 04 20:27:56 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:27:56 debian sing-box[3829]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:27:56 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:27:56 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:28:07 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 215.
+Jul 04 20:28:07 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:28:07 debian sing-box[3839]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:28:07 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:28:07 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:28:17 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 216.
+Jul 04 20:28:17 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:28:17 debian sing-box[3868]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:28:17 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:28:17 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:28:27 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 217.
+Jul 04 20:28:27 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:28:27 debian sing-box[3879]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:28:27 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:28:27 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:28:37 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 218.
+Jul 04 20:28:37 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:28:37 debian sing-box[3889]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:28:37 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:28:37 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:28:48 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 219.
+Jul 04 20:28:48 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:28:48 debian sing-box[3899]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:28:48 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:28:48 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:28:58 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 220.
+Jul 04 20:28:58 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:28:58 debian sing-box[3909]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:28:58 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:28:58 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:29:08 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 221.
+Jul 04 20:29:08 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:29:08 debian sing-box[3920]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:29:08 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:29:08 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:29:18 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 222.
+Jul 04 20:29:18 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:29:18 debian sing-box[3930]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:29:18 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:29:18 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:29:29 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 223.
+Jul 04 20:29:29 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:29:29 debian sing-box[3940]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:29:29 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:29:29 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:29:39 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 224.
+Jul 04 20:29:39 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:29:39 debian sing-box[3950]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:29:39 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:29:39 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:29:49 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 225.
+Jul 04 20:29:49 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:29:49 debian sing-box[3960]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:29:49 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:29:49 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:29:59 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 226.
+Jul 04 20:29:59 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:29:59 debian sing-box[3970]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:29:59 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:29:59 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:30:10 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 227.
+Jul 04 20:30:10 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:30:10 debian sing-box[3980]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:30:10 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:30:10 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:30:20 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 228.
+Jul 04 20:30:20 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:30:20 debian sing-box[3991]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:30:20 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:30:20 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:30:30 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 229.
+Jul 04 20:30:30 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:30:30 debian sing-box[4001]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:30:30 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:30:30 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:30:40 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 230.
+Jul 04 20:30:40 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:30:40 debian sing-box[4011]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:30:40 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:30:40 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:30:51 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 231.
+Jul 04 20:30:51 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:30:51 debian sing-box[4021]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:30:51 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:30:51 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:31:01 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 232.
+Jul 04 20:31:01 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:31:01 debian sing-box[4030]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:31:01 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:31:01 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:31:11 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 233.
+Jul 04 20:31:11 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:31:11 debian sing-box[4040]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:31:11 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:31:11 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:31:21 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 234.
+Jul 04 20:31:21 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:31:21 debian sing-box[4051]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:31:21 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:31:21 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:31:32 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 235.
+Jul 04 20:31:32 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:31:32 debian sing-box[4062]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:31:32 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:31:32 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:31:42 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 236.
+Jul 04 20:31:42 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:31:42 debian sing-box[4072]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:31:42 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:31:42 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:31:52 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 237.
+Jul 04 20:31:52 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:31:52 debian sing-box[4082]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:31:52 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:31:52 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:32:02 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 238.
+Jul 04 20:32:02 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:32:02 debian sing-box[4093]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:32:02 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:32:02 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:32:13 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 239.
+Jul 04 20:32:13 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:32:13 debian sing-box[4102]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:32:13 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:32:13 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:32:23 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 240.
+Jul 04 20:32:23 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:32:23 debian sing-box[4112]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:32:23 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:32:23 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:32:33 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 241.
+Jul 04 20:32:33 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:32:33 debian sing-box[4122]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:32:33 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:32:33 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:32:43 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 242.
+Jul 04 20:32:43 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:32:43 debian sing-box[4132]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:32:43 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:32:43 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:32:54 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 243.
+Jul 04 20:32:54 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:32:54 debian sing-box[4142]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:32:54 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:32:54 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:33:04 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 244.
+Jul 04 20:33:04 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:33:04 debian sing-box[4153]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:33:04 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:33:04 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:33:14 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 245.
+Jul 04 20:33:14 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:33:14 debian sing-box[4182]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:33:14 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:33:14 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:33:24 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 246.
+Jul 04 20:33:24 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:33:24 debian sing-box[4192]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:33:24 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:33:24 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:33:35 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 247.
+Jul 04 20:33:35 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:33:35 debian sing-box[4201]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:33:35 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:33:35 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:33:45 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 248.
+Jul 04 20:33:45 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:33:45 debian sing-box[4211]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:33:45 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:33:45 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:33:55 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 249.
+Jul 04 20:33:55 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:33:55 debian sing-box[4221]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:33:55 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:33:55 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:34:05 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 250.
+Jul 04 20:34:05 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:34:05 debian sing-box[4231]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:34:05 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:34:05 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:34:16 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 251.
+Jul 04 20:34:16 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:34:16 debian sing-box[4243]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:34:16 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:34:16 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:34:26 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 252.
+Jul 04 20:34:26 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:34:26 debian sing-box[4253]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:34:26 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:34:26 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:34:36 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 253.
+Jul 04 20:34:36 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:34:36 debian sing-box[4263]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:34:36 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:34:36 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:34:46 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 254.
+Jul 04 20:34:46 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:34:46 debian sing-box[4273]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:34:46 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:34:46 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:34:57 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 255.
+Jul 04 20:34:57 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:34:57 debian sing-box[4283]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:34:57 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:34:57 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:35:07 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 256.
+Jul 04 20:35:07 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:35:07 debian sing-box[4293]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:35:07 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:35:07 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:35:17 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 257.
+Jul 04 20:35:17 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:35:17 debian sing-box[4303]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:35:17 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:35:17 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:35:27 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 258.
+Jul 04 20:35:27 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:35:27 debian sing-box[4314]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:35:27 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:35:27 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:35:38 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 259.
+Jul 04 20:35:38 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:35:38 debian sing-box[4324]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:35:38 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:35:38 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:35:48 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 260.
+Jul 04 20:35:48 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:35:48 debian sing-box[4334]: FATAL[0000] create service: initialize inbound[0]: legacy tun address fields are deprecated in sing-box 1.10.0 and removed in sing-box 1.12.0
+Jul 04 20:35:48 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:35:48 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:35:57 debian systemd[1]: Stopped sing-box.service - sing-box service.
+Jul 04 20:35:57 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:35:57 debian sing-box[4346]: FATAL[0000] decode config at /etc/sing-box/config.json: experimental.statistics: json: unknown field "statistics"
+Jul 04 20:35:57 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:35:57 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:36:07 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 1.
+Jul 04 20:36:07 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:36:08 debian sing-box[4359]: FATAL[0000] decode config at /etc/sing-box/config.json: experimental.statistics: json: unknown field "statistics"
+Jul 04 20:36:08 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:36:08 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:36:18 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 2.
+Jul 04 20:36:18 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:36:18 debian sing-box[4369]: FATAL[0000] decode config at /etc/sing-box/config.json: experimental.statistics: json: unknown field "statistics"
+Jul 04 20:36:18 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:36:18 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+Jul 04 20:36:28 debian systemd[1]: sing-box.service: Scheduled restart job, restart counter is at 3.
+Jul 04 20:36:28 debian systemd[1]: Started sing-box.service - sing-box service.
+Jul 04 20:36:28 debian sing-box[4379]: FATAL[0000] decode config at /etc/sing-box/config.json: experimental.statistics: json: unknown field "statistics"
+Jul 04 20:36:28 debian systemd[1]: sing-box.service: Main process exited, code=exited, status=1/FAILURE
+Jul 04 20:36:28 debian systemd[1]: sing-box.service: Failed with result 'exit-code'.
+root@debian:~# 
